@@ -7,6 +7,7 @@
  width: 950px;
  background-color: silver;
  margin: 0px auto;
+
 }
 #header{
  height: 150px;
@@ -23,12 +24,19 @@
  background-color: yellow;
 }
 .subcontent{
+ display:inline-flex;
  height: 200px;
  width: 200px;
  background-color: purple;
+ margin:10px;
+
 }
 #advertisements{
  height: 90px;
  width: 670px;
  background-color: pink;
+}
+
+#content{
+    display:flex;
 }
