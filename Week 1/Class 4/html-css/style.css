@@ -1,0 +1,11 @@
+#html {
+    color:red;
+}
+
+#css {
+    color:blue;
+}
+
+#css, #html, #js {
+    text-decoration: underline;
+}
