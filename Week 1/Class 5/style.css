@@ -1,0 +1,54 @@
+/*To reset CSS*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    width:70%;
+    margin:auto;
+    font-family: sans-serif;
+}
+
+.div-header {
+    display:flex;
+    justify-content: space-between;
+    border-bottom:3px solid black;
+    padding:4px;
+}
+
+.header-item a {
+    color:blue;
+    text-decoration: unset;
+}
+
+.div-title {
+    border:1px red solid;
+    text-align: center;
+    padding:15px 30px;
+    margin-top:30px;
+}
+
+.div-forms {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.div-login, .div-signup {
+    border:1px solid blue;
+    width: 45%;
+    padding:10px;
+}
+
+.div-login h2, .div-signup h2{
+    color:white;
+    background-color: blue;
+    text-align: center;
+}
+
+.div-login form, .div-signup form{
+    margin: 10px;
+}
