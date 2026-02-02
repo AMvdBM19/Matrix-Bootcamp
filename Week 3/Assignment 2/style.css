@@ -1,0 +1,23 @@
+.bg-dark {
+    background:black;
+    color:white;
+}
+
+#my-form {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    width:80%;
+    margin:auto;
+}
+
+.form-container {
+    width:50%;
+    margin:auto;
+}
+
+.form-container h1{
+    text-align: center;
+}
