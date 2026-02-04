@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pomodoro Clock</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="control-panel">
+                <div class="break-container">
+                    <h2>BREAK:</h2>
+                    <div class="counter-container">
+                        <button class="minus" id="break-minus">-</button>
+                        <p id="break-lenght">5</p>
+                        <button class="plus" id="break-plus">+</button>
+                    </div>
+                </div>
+                <div class="work-container">
+                    <h2>WORK:</h2>
+                    <div class="counter-container">
+                        <button class="minus" id="work-minus">-</button>
+                        <p id="work-lenght">25</p>
+                        <button class="plus" id="work-plus">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ball-container">
+                <h1 id="timer">25:00</h1>
+            </div>
+            <div class="buttons">
+                <button id="start">START</button>
+                <button id="reset">RESET</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

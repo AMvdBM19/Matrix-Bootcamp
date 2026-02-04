@@ -1,0 +1,77 @@
+body {
+    background:black;
+    color:white;
+}
+
+.main-container {
+    width:70%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    border:2px solid white;
+    padding:20px;
+}
+
+.control-panel {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    border:1px ;
+}
+
+.break-container, .work-container {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width:50%;
+}
+
+.counter-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.counter-container p {
+    width:50%;
+    height:auto;
+    font-size: 24px;
+    color:#00ff00;
+}
+
+.ball-container {
+    border:1px solid white;
+    width:50%;
+    margin: auto;
+    padding:70px 0px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+
+.ball-container h1{
+    justify-self: center;
+    font-size:100px;
+    color:#00ff00;
+}
+
+.minus {
+    background:blue;
+    color:white;
+    font-weight: 900;
+    font-size: 25px;
+    width:50px;
+}
+
+.plus {
+    background:red;
+    color:white;
+    font-weight: 900;
+    font-size: 25px;
+    width:50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
