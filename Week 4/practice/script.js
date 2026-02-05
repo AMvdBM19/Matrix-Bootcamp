@@ -1,28 +1,25 @@
-
-//DOM
-
 //Select HTML elements
+// Inputs
 const firstName = document.getElementById("first-name");
 const lastName = document.getElementById("last-name");
-
+// Form and submit
 const myForm = document.getElementById("my-form");
 const addName = document.getElementById("submit");
-
+// List element <ul>
 const userList = document.getElementById('user-list');
 
-// Declare empty array
+// Declare empty users array
 let users = [];
 
 //Event for button
 document.addEventListener("submit", function (e) {
-    // Create empty array
+    // Prevent reload on submit
     e.preventDefault();
 
     //Check for NOT null values
     if (!firstName.value || !lastName.value){
         //If empty, notify
-        alert("Input values");
-        
+        alert("Please input values!");
 
     //If value = TRUE
     } else {
@@ -30,7 +27,7 @@ document.addEventListener("submit", function (e) {
         // Combine them to fullName
         let fullName = firstName.value + " " + lastName.value
 
-        // loop through array
+        // Define Add <li> element function
         function addLatestItem(arr) {
             const li = document.createElement('li');
             li.textContent = arr[arr.length - 1];
@@ -39,13 +36,12 @@ document.addEventListener("submit", function (e) {
         
         // Push to array
         users.push(fullName);
+        // Call <li> creation function
         addLatestItem(users);
-
-        alert("Okay");
     }
 
     // Empty form
     myForm.reset()
-
+    //Debug
     console.log(users)
 });
